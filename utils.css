@@ -1,0 +1,21 @@
+.head {
+    background-color: #1d3557;
+    border-radius: 40%;
+    border: 0.1rem solid white;
+}
+
+.snake {
+    background-color: #223f66;
+    border-radius: 70%;
+    border: 0.1rem solid white;
+}
+
+.food {
+    background-color: #2b2d42;
+    border-radius: 60%;
+    border: 0.1rem solid whitesmoke;
+}
+
+.d-none {
+    display: none;
+}

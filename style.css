@@ -1,0 +1,92 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    position: absolute;
+    top: 13vh;
+    right: 5vw;
+    color: #264653;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #264653;
+    cursor: default;
+}
+
+.WelcomeStatement {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.webowner {
+    font-size: 2rem;
+    margin-top: 1vh;
+    margin-left: 3vw;
+}
+
+.board {
+    height: 80%;
+    width: 50%;
+    background: linear-gradient(rgb(183, 251, 183), rgb(43, 116, 119));
+    margin-right: 30vw;
+    margin-bottom: 8vh;
+    border: 8px solid rgb(3, 66, 3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.score {
+    font-size: 2.5rem;
+    padding-left: 4rem;
+    margin-bottom: 0;
+}
+
+.gameOver {
+    font-size: 3rem;
+    margin-top: 0;
+    padding-left: 4.5rem;
+}
+
+#reset {
+    position: absolute;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    bottom: 2rem;
+    background-color:rgb(3, 66, 3);
+    color:rgb(183, 251, 183);
+    cursor: pointer;
+}
+
+#pause {
+    position: absolute;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    bottom: 2rem;
+    background-color:rgb(3, 66, 3);
+    color:rgb(183, 251, 183);
+    cursor: pointer;
+    left: 37rem;
+}
+
+#reset:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#pause:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
